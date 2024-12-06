@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "lint": "eslint --ignore-pattern \"node_modules/*\" --ignore-pattern \"dist/*\" \"**/*{.js,.jsx,.ts,.tsx}\"",
     "preview": "vite preview"
   },
   "dependencies": {
