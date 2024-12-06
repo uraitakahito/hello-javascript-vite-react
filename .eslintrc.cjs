@@ -40,6 +40,13 @@ module.exports = {
         'no-magic-numbers': 'off',
       },
     },
+    {
+      files: ['vite.config.?(c|m)[jt]s', 'vitest.config.?(c|m)[jt]s'],
+      rules: {
+        // https://github.com/import-js/eslint-plugin-import/blob/v2.31.0/docs/rules/no-extraneous-dependencies.md
+        'import/no-extraneous-dependencies': 'off',
+      },
+    },
   ],
 
   parserOptions: {
