@@ -4,6 +4,8 @@
 // https://eslint.org/blog/2022/08/new-config-system-part-2/#backwards-compatibility-utility
 
 module.exports = {
+  root: true,
+
   /*
    * https://github.com/eslint/eslintrc/blob/main/conf/environments.js
    */
