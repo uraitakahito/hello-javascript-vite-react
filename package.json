@@ -23,6 +23,7 @@
     "eslint-plugin-react": "^7.37.2",
     "eslint-plugin-react-hooks": "^4.6.2",
     "globals": "^15.12.0",
+    "markuplint": "^4.11.4",
     "vite": "^6.0.1"
   }
 }
