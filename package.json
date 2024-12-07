@@ -7,6 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint --ignore-pattern \"node_modules/*\" --ignore-pattern \"dist/*\" \"**/*{.js,.jsx,.ts,.tsx}\"",
+    "html:lint": "markuplint \"./*.html\"",
     "preview": "vite preview"
   },
   "dependencies": {
