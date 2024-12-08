@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg';
 // eslint-disable-next-line import/no-absolute-path
 import viteLogo from '/vite.svg';
 import './App.css';
+import Ignore from './Ignore';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -35,16 +36,7 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
-      <p>
-        bool, undefined and null are ignored:
-        <ul>
-          <li>{true}</li>
-          <li>{false}</li>
-          <li>{undefined}</li>
-          <li>{null}</li>
-          <li>{0}</li>
-        </ul>
-      </p>
+      <Ignore />
       <p className="read-the-docs">
         Current time:
         {(new Date()).toLocaleString()}
