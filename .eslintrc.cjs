@@ -75,7 +75,7 @@ module.exports = {
     // https://eslint.org/docs/v8.x/rules/one-var
     'one-var': 'off',
     // https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/jsx-one-expression-per-line.md
-    'react/jsx-one-expression-per-line': ['error', { allow: 'non-jsx' }],
+    'react/jsx-one-expression-per-line': 'off',
     // https://ja.legacy.reactjs.org/blog/2020/09/22/introducing-the-new-jsx-transform.html#eslint
     'react/react-in-jsx-scope': 'off',
   },
