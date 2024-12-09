@@ -2,10 +2,10 @@ import PropTypesComponent from './PropTypesComponent';
 
 function Props() {
   return (
-    <p>
+    <div>
       <PropTypesComponent name="Alice" />
       <PropTypesComponent name="Tom" />
-    </p>
+    </div>
   );
 }
 

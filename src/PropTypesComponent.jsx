@@ -2,9 +2,9 @@ import PropTypes from 'prop-types';
 
 function PropTypesComponent({ name }) {
   return (
-    <h2>
+    <div>
       Hello, {name}!
-    </h2>
+    </div>
   );
 }
 
