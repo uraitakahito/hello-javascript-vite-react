@@ -5,14 +5,14 @@ function SetAttribute() {
     target: '_blank',
   };
   return (
-    <p>
+    <div>
       <ul>
         <li><a href={`${dest}/learn`}>React</a></li>
         {/* Props spreading is forbidden
         https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/jsx-props-no-spreading.md */}
         <li><a {...attrs}>React</a></li>
       </ul>
-    </p>
+    </div>
   );
 }
 

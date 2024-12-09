@@ -1,6 +1,6 @@
 function Ignore() {
   return (
-    <p>
+    <div>
       bool, undefined and null are ignored:
       <ul>
         <li>{true}</li>
@@ -9,7 +9,7 @@ function Ignore() {
         <li>{null}</li>
         <li>{0}</li>
       </ul>
-    </p>
+    </div>
   );
 }
 
