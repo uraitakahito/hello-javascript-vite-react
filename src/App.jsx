@@ -5,6 +5,7 @@ import viteLogo from '/vite.svg';
 import './App.css';
 import Ignore from './Ignore';
 import SetAttribute from './SetAttribute';
+import Props from './Props';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -39,6 +40,7 @@ function App() {
       </p>
       <Ignore />
       <SetAttribute />
+      <Props />
       <p className="read-the-docs">
         Current time:
         {(new Date()).toLocaleString()}
