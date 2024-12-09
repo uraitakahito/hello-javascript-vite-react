@@ -35,10 +35,6 @@ function App() {
       <Ignore />
       <SetAttribute />
       <Props />
-      <p className="read-the-docs">
-        Current time:
-        {(new Date()).toLocaleString()}
-      </p>
     </>
   );
 }
