@@ -3,10 +3,7 @@ import PropTypes from 'prop-types';
 function PropTypesComponent({ name }) {
   return (
     <h2>
-      Hello,
-      {' '}
-      {name}
-      !
+      Hello, {name}!
     </h2>
   );
 }
