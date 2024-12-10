@@ -6,7 +6,6 @@ import './App.css';
 import Ignore from './Ignore';
 import SetAttribute from './SetAttribute';
 import Props from './Props';
-import ReRender from './ReRender';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -36,7 +35,6 @@ function App() {
       <Ignore />
       <SetAttribute />
       <Props />
-      <ReRender />
     </>
   );
 }
