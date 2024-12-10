@@ -11,7 +11,7 @@ function ReRender() {
       </div>
       <div>
         <strong>The passed Props are changed</strong>:
-        <ReRender2 count={0} />
+        <ReRender2 />
       </div>
     </div>
   );

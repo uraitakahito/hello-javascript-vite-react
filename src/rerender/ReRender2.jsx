@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import PropTypes from 'prop-types';
 import ReRender2Child from './ReRender2Child';
 
 function ReRender2() {
@@ -12,14 +11,9 @@ function ReRender2() {
   return (
     <>
       <button onClick={countUp} type="button">count up</button>
-      <ReRender2Child count={0} />
+      <ReRender2Child count={count} />
     </>
   );
 }
-
-ReRender2.propTypes = {
-  // eslint-disable-next-line react/no-unused-prop-types
-  count: PropTypes.number.isRequired,
-};
 
 export default ReRender2;
