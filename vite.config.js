@@ -11,6 +11,7 @@ export default defineConfig({
         rerender: resolve(__dirname, 'src/rerender/index.html'),
       },
     },
+    minify: false,
   },
   plugins: [react()],
 });
