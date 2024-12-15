@@ -17,24 +17,26 @@ export default function StateForm() {
   return (
     <form>
       <div>
-        <label htmlFor="name">Name:</label>
-        <input
-          id="name"
-          type="text"
-          name="name"
-          value={form.name}
-          onChange={handleForm}
-        />
+        <label htmlFor="name">Name:
+          <input
+            id="name"
+            type="text"
+            name="name"
+            value={form.name}
+            onChange={handleForm}
+          />
+        </label>
       </div>
       <div>
-        <label htmlFor="age">age:</label>
-        <input
-          id="age"
-          type="text"
-          name="age"
-          value={form.age}
-          onChange={handleForm}
-        />
+        <label htmlFor="age">age:
+          <input
+            id="age"
+            type="text"
+            name="age"
+            value={form.age}
+            onChange={handleForm}
+          />
+        </label>
       </div>
       <div>
         <button type="button" onClick={show}>Show</button>
