@@ -3,9 +3,6 @@ import reactLogo from './assets/react.svg';
 // eslint-disable-next-line import/no-absolute-path
 import viteLogo from '/vite.svg';
 import './App.css';
-import Ignore from './Ignore';
-import SetAttribute from './SetAttribute';
-import Props from './Props';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -32,9 +29,6 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
-      <Ignore />
-      <SetAttribute />
-      <Props />
     </>
   );
 }
